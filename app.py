@@ -7,7 +7,7 @@ from json import dumps
 dbhost = '127.0.0.1'
 dbuser = '****'
 dbpass = '****'
-dbname = 'lanzi'
+dbname = 'gisp'
 
 db_connect = create_engine('mysql+pymysql://' + dbuser + ':' + dbpass + '@' + dbhost + '/' + dbname, pool_recycle=3600)
 app = Flask(__name__)
